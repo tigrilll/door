@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  display: flex;
+  font-family: sans-serif;
+}
+.sidebar {
+  width: 150px;
+  background: #f0f0f0;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  height: 100vh;
+  overflow: auto;
+  box-sizing: border-box;
+}
+.door-thumb {
+  width: 100%;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+.door-thumb:hover {
+  border-color: #007bff;
+}
+.main {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+canvas {
+  border: 1px solid #aaa;
+  display: block;
+  max-width: 100%;
+}
+.status {
+  margin-top: 10px;
+  font-size: 14px;
+  color: green;
+}
